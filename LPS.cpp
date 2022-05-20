@@ -1,4 +1,4 @@
-void computeLPSArray(srting pat)
+vector<int> computeLPSArray(string pat)
 {
     vector<int> lps(pat.size());
     int len = 0;
@@ -28,4 +28,5 @@ void computeLPSArray(srting pat)
           
         }
     }
+    return lps;
 }
